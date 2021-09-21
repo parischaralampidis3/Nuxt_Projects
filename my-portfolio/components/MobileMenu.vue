@@ -1,14 +1,15 @@
 <template>
    <div>
    <client-only>
-        <div class="bg-gray-100">        
+        <div class="bg-white">        
             <div class="container mx-auto"> 
                 <nav>
-                    <ul class=" block md:block font-semibold  text-center text-gray-800 text-xl p-4  lg:hidden ">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="../navigation_pages/portfolio">Portfolio</a></li>
-                        <li><a href="../navigation_pages/about">About</a></li>
-                        <li><a href="../navigation_pages/contact">Contact</a></li>
+                    <ul class="flex flex-col block font-semibold justify-center items-center  text-center text-gray-800 text-xl p-4  lg:hidden ">
+                        
+                        <nuxt-link to="/">Home</nuxt-link> 
+                        <nuxt-link to="../navigation_pages/portfolio">Portfolio</nuxt-link>  
+                        <nuxt-link to="../navigation_pages/about">About</nuxt-link>  
+                        <nuxt-link to="../navigation_pages/contact">Contact</nuxt-link>  
                     </ul>
                 </nav>
             </div>

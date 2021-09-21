@@ -1,5 +1,6 @@
 <template>
     <div class="bg-white">
+        <div class="section">
         <div class="container mx-auto">
             <div class="flex justify-between font-semibold text-gray-800 px-4 py-4">
                     <div>
@@ -13,6 +14,7 @@
               
             </div>
         </div>
+    </div>
     </div>
 </div>
 </template>
@@ -33,6 +35,10 @@
     }
 </script>
 <style scoped>
+.section{
+    padding-left:20px;
+    padding-right:20px;
+}
 nav > li a:hover{
     color: tomato;
 }
