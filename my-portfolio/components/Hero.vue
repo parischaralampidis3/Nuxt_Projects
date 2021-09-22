@@ -4,9 +4,16 @@
             <div class="hero-image">
                 <div class="hero-text text-white text-center ">
                     <h1 class="font-bold text-2xl">Paris Charalampidis</h1>
-                    <p class="italic">I am a Front End Developer.</p>
+                        <div class=" flex text-sm mt-6 mx-6 " >
+                                 <fa class="mr-2" icon="phone"></fa>
+                                 <p cvla>(+30)6947491008</p>
+                        </div>
+                        <div class=" flex text-sm mt-6 mx-6 " >
+                                 <fa class="mr-2" icon="envelope"></fa>
+                                 <p>parou.char@gmail.com</p>
+                        </div>
                     <div class="mt-6 ml-15">
-                    <a class="button font-semibold bg-gray-600 rounded-2xl p-2  hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  href="resume.pdf" download>Download</a>
+                    <a class="button font-semibold bg-gray-600 rounded-2xl p-2  hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"  href="resume.pdf" download>Download Resume</a>
                     </div>
                 </div>
             </div>    
