@@ -11,7 +11,6 @@
                     <nuxt-link to="../navigation_pages/portfolio">Portfolio</nuxt-link>  |
                     <nuxt-link to="../navigation_pages/contact">Contact</nuxt-link>  
                     </nav> 
-              
             </div>
         </div>
     </div>
@@ -19,7 +18,7 @@
 </div>
 </template>
 <script>
-    import MobileMenu from "~/components/MobileMenu.vue"
+    import MobileMenu from "~/partial/MobileMenu.vue"
     export default{
         name:"NavigationBar",
         data(){

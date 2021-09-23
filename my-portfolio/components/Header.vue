@@ -23,7 +23,7 @@
 </template>
 <script>
     import NavigationBar from "~/components/NavigationBar.vue"
-    import MobileMenu from "~/components/MobileMenu.vue"
+    import MobileMenu from "~/partial/MobileMenu.vue"
     export default{
         name:"Header",
         components:{
