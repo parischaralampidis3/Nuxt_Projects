@@ -5,13 +5,13 @@
           <h1 class="text-left font-bold  text-3xl">Biography</h1>
         </div>
 
-        <div class="card flex flex-col justify-center items-center lg:flex-row  mt-4">
+        <div class="profile-card flex flex-col justify-center items-center lg:flex-row  mt-4">
              
-                    <div class="card-one">
+                    <div class="profile-card-one">
                         <img class="rounded-full w-40 h-32 lg:mt-0 w-44 h-44" src="~/static/avatar.jpg">
                     </div>
                     
-                        <div class="card two flex flex-col justify-around w-3/5 ">
+                        <div class="profile-card-two flex flex-col justify-around w-3/5 ">
 
                               
                                     <div class="text-center lg: mt-6">
@@ -27,8 +27,8 @@
                                                         accumsan aliquet.</p> 
                                                     </div>
                                         
-                                        <div class="button text-center text-white w-27 font-bold bg-gray-600 rounded-xl p-2 mt-8 mx-auto lg:w-2/4">
-                                            <button ><a href="./navigation_pages/about" target="_blank">Learn More</a></button>
+                                        <div class="profile-button text-center text-white w-27 font-bold bg-red-600 rounded-xl p-2 mt-8 mx-auto lg:w-2/4">
+                                            <button ><a class="text-xl font-semibold" href="./navigation_pages/about" target="_blank">Learn More</a></button>
                                         </div>
                                     </div>        
                         </div>
@@ -40,11 +40,10 @@
     padding-left:20px;
     padding-right:20px;
 }
-.button{
-
-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.14);
--webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.14);
--moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.14);
+.profile-button{
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.14);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.14);
 }
 
 </style>

@@ -2,15 +2,16 @@
     <div class="bg-white">
         <div class="section">
         <div class="container mx-auto">
-            <div class="flex justify-between items-center font-semibold text-gray-800 px-4 py-4">
-                    <div class="hidden lg:block brand text-2xl  hover:text-red-700  font-bold">
-                        <nuxt-link to="/">Home</nuxt-link>
+            <div class="flex justify-between font-semibold text-gray-800 px-4 py-4">
+                    <div>
+                        <nuxt-link to="/" class="hidden lg:block brand text-2xl  hover:text-red-700  font-bold">Home</nuxt-link>
                     </div>
                     <nav id="nav" class="hidden lg:block  font-semibold text-xl">  
-                        <nuxt-link to="../navigation_pages/about">About</nuxt-link>   |
-                        <nuxt-link to="../navigation_pages/portfolio">Portfolio</nuxt-link>  |
-                        <nuxt-link to="../navigation_pages/contact">Contact</nuxt-link>  
+                    <nuxt-link to="../navigation_pages/about">About</nuxt-link>   |
+                    <nuxt-link to="../navigation_pages/portfolio">Portfolio</nuxt-link>  |
+                    <nuxt-link to="../navigation_pages/contact">Contact</nuxt-link>  
                     </nav> 
+              
             </div>
         </div>
     </div>
