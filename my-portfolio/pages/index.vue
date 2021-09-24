@@ -1,8 +1,8 @@
 <template>
   <div id="app">
       <Hero />
+      <Profile />  
       <Services />
-      <Profile />
      
   </div>
 </template>
@@ -14,8 +14,8 @@
   export default {
     components:{
       Hero,
-      Services,
-      Profile
+      Profile, 
+      Services
      
  
     }

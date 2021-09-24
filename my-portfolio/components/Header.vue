@@ -1,8 +1,9 @@
 <template>
-    <div class="bg-white">
+   
     
         <div class="container mx-auto">
-                <div class="flex justify-between mt-4 mx-4" >
+            
+                <div class="flex justify-between inset-x-0 fixed   z-10  mt-4 ml-0 mr-0 py-2 px-12 bg-white " >
                     <div class=" sm:hover:text-red-700 lg:hidden"> 
                         <a href="/"> <fa class=" text-2xl cursor-pointer " icon="home"></fa></a>
                     </div>
@@ -17,9 +18,7 @@
                     <MobileMenu />
                 </div>
             </div>
-        </div>
-    
-    </div>
+      
 </template>
 <script>
     import NavigationBar from "~/components/NavigationBar.vue"

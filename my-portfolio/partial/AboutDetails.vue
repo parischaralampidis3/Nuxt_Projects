@@ -1,5 +1,6 @@
 <template>
             <div class="container mx-auto">
+                <div class='mt-12'>
                 <div class="sm:w-2/4 mx-24 text-gray-700 rounded-xl mt-4">
                         <div class="flex mt-6 font-bold text-base">
                             <fa class="text-red-600 my-1 mr-2" icon="user"></fa>
@@ -14,6 +15,7 @@
                             <h3>parou.char@gmail.com</h3>
                         </div>
                     </div>  
+                </div>
              </div>      
 
 </template>

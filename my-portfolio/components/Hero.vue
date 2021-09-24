@@ -1,12 +1,12 @@
 <template>
     
         <div class="container mx-auto">
-            <div class="hero-image">
+            <div class="hero-image ">
                 <div class="hero-text text-white text-center ">
                     <h1 class="font-bold text-2xl">Paris Charalampidis</h1>
                         <div class=" flex text-sm mt-6 mx-6 " >
                                  <fa class="mr-2" icon="phone"></fa>
-                                 <p cvla>(+30)6947491008</p>
+                                 <p>(+30)6947491008</p>
                         </div>
                         <div class=" flex text-sm mt-6 mx-6 " >
                                  <fa class="mr-2" icon="envelope"></fa>
