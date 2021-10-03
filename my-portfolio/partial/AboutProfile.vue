@@ -3,7 +3,7 @@
                
                 <div class=" flex flex-col justify-center items-center lg:flex-row  p-4 mt-12">
                     <div> 
-                        <div class="text-center text-base font-bold bg-gray-700 text-white w-64  p-4 lg:w-64 h-3/4">
+                        <div class="text-center text-base font-bold bg-gray-700 text-white w-64  p-4 lg:w-64 h-4/5">
                             <h1>Profile</h1>
                         </div>            
                     </div>
