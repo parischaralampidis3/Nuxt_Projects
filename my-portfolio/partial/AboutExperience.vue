@@ -9,26 +9,38 @@
                       <div class="  flex flex-wrap justify-around items-center text-gray-600 text-4xl">
                           
                     
-                             <div class="border h-64 w-64 bg-gray-100 mt-4">
+                             <div class="border h-64 w-64 mt-4">
                                      <div class="text-center text-black font-bold ">
                                         <h1>HTML5</h1>
+                                        <div class="w-32 mx-auto my-4">
+                                            <img src="~/static/skills-icons/html.png">
+                                        </div>
                                     </div>
                             </div>
                             
-                            <div class="border h-64 w-64 bg-gray-100 mt-4">
+                            <div class="border h-64 w-64 mt-4">
                                      <div class="text-center font-bold text-black">
                                         <h1>CSS3</h1>
+                                        <div class="w-40 mx-auto ">
+                                                <img src="~/static/skills-icons/css3.png">
+                                        </div>
                                     </div>
                             </div>
-                            <div class="border h-64 w-64 bg-gray-100 mt-4">
-                                    <div class="text-center font-semibold text-black mt-4">
+                            <div class="border h-64 w-64 my-12">
+                                    <div class="text-center font-semibold text-black mt-2">
                                         <h1>Javascript</h1>
+                                        <div class="w-32 mx-auto my-4">
+                                            <img src="~/static/skills-icons/javascript-logo.png">
+                                        </div>
                                     </div>
                             </div>
 
-                             <div class="border h-64 w-64 bg-gray-100 mt-4">
+                             <div class="border h-64 w-64 mt-4">
                                      <div class="text-center font-bold text-black  ">
                                         <h1>Vue.js</h1>
+                                        <div class="w-40 mx-auto">
+                                            <img src="~/static/skills-icons/vue.png">
+                                        </div>
                                     </div>
                             </div>
 
